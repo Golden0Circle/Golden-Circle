@@ -1,2 +1,68 @@
-# Google App Engine generated folder
-appengine-generated/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Circle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Golden Circle</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collections">Coleções</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Bem-vindo à Golden Circle</h2>
+      <p>Descubra a coleção que redefine o luxo.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Coleção de Inverno">
+    </section>
+
+    <section id="collections">
+      <h2>Coleções</h2>
+      <div class="gallery">
+        <div class="item">
+          <img src="https://via.placeholder.com/400x400" alt="Roupa 1">
+          <p>Roupa 1</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/400x400" alt="Roupa 2">
+          <p>Roupa 2</p>
+        </div>
+        <!-- Item oculto -->
+        <div class="item hidden">
+          <img src="https://via.placeholder.com/400x400" alt="Imagem Misteriosa">
+          <p>Clique para descobrir</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>Golden Circle é a sua escolha para roupas modernas e sofisticadas. Inspirada na exclusividade, nossas coleções são feitas para aqueles que desejam ser únicos.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <p>Email: contato@goldencircle.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Golden Circle</p>
+    <!-- Link oculto -->
+    <span id="hidden-link" onclick="revealSecret()">Descubra o que está por trás do círculo</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
